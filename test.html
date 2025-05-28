@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>WebStudio</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header">
+        <nav class="navigation">
+          <ul class="navigation-list">
+            <li class="logo-item">
+              <a href="#" class="logo-link"
+                >web<span class="logo-studio">studio</span></a
+              >
+            </li>
+            <li class="navigation-item">
+              <a href="index.html" class="navigation-link">Studio</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link">Portfolio</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link active">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contacts">
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <a href="mailto:info@devstudio.com" class="contacts-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contacts-item">
+              <a href="tel:+11 (000) 111-11-11" class="contacts-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <ul class="test-list">
+          <!-- <li class="test-item">
+            <a href="" class="test-link">
+              <h3 class="test-subtitle">Cashless Payment</h3>
+              <p class="test-description">Marketing</p>
+            </a>
+            <svg class="icon-close" width="8px" height="8px">
+              <use href="./svg/checkbox.svg"></use>
+            </svg>
+          </li> -->
+          <li class="test-item">
+            <a href="" class="test-link"></a>
+          </li>
+          <!-- <li class="test-item">
+            <a href="" class="test-link">
+              <svg class="test-icon">
+                <use href="./svg/icons.svg#"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="test-item">
+            <a href="" class="test-link">
+              <svg class="test-icon">
+                <use href="./svg/icons.svg#"></use>
+              </svg>
+            </a>
+          </li> -->
+        </ul>
+      </div>
+      <section class="section">
+        <div class="container portfolio">
+          <h2 class="portfolio-title">Our Portfolio</h2>
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
+              <a href="#" class="portfolio-link">
+                <div class="portfolio-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/banking-app-288.jpg    1x,
+                        ./images/portfolio/banking-app-288@2x.jpg 2x
+                      "
+                      width="288"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/banking-app-356.jpg    1x,
+                        ./images/portfolio/banking-app-356@2x.jpg 2x
+                      "
+                      width="356"
+                      media="(min-width: 768px) and (max-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/banking-app-360.jpg    1x,
+                        ./images/portfolio/banking-app-360@2x.jpg 2x
+                      "
+                      width="360"
+                      media="(min-width: 1158px)"
+                    />
+                    <img
+                      src="./images/portfolio/banking-app-288.jpg"
+                      alt="A mobile banking app interface with a purple and white color scheme, featuring login and registration screens as well as various financial management features."
+                    />
+                  </picture>
+                  <p class="portfolio-slide"></p>
+                </div>
+                <div class="portfolio-info">
+                  <h3 class="portfolio-subtitle">Banking App</h3>
+                  <p class="portfolio-description">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a href="#" class="portfolio-link">
+                <div class="portfolio-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/cashless-payment-288.jpg    1x,
+                        ./images/portfolio/cashless-payment-288@2x.jpg 2x
+                      "
+                      width="288"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/cashless-payment-356.jpg    1x,
+                        ./images/portfolio/cashless-payment-356@2x.jpg 2x
+                      "
+                      width="356"
+                      media="(min-width: 768px) and (max-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/cashless-payment-360.jpg    1x,
+                        ./images/portfolio/cashless-payment-360@2x.jpg 2x
+                      "
+                      width="360"
+                      media="(min-width: 1158px)"
+                    />
+                    <img
+                      src="./images/portfolio/cashless-payment-288.jpg"
+                      alt="A person making a cashless payment using a smartphone to scan a QR code on a payment terminal."
+                    />
+                  </picture>
+                  <p class="portfolio-slide">
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+                <div class="portfolio-info">
+                  <h3 class="portfolio-subtitle">Cashless Payment</h3>
+                  <p class="portfolio-description">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <!-- <li class="portfolio-item">
+              <a href="#" class="portfolio-link">
+                <div class="portfolio-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/meditation-app-288.jpg    1x,
+                        ./images/portfolio/meditation-app-288@2x.jpg 2x
+                      "
+                      width="288"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/meditation-app-356.jpg    1x,
+                        ./images/portfolio/meditation-app-356@2x.jpg 2x
+                      "
+                      width="356"
+                      media="(min-width: 768px) and (max-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/meditation-app-360.jpg    1x,
+                        ./images/portfolio/meditation-app-360@2x.jpg 2x
+                      "
+                      width="360"
+                      media="(min-width: 1158px)"
+                    />
+                    <img
+                      src="./images/portfolio/meditation-app-288.jpg"
+                      alt="A laptop screen displaying text that reads 'RETURN TO 'NORMALCY'' with a blurred gradient background."
+                      width="360"
+                    />
+                  </picture>
+                  <p class="portfolio-slide"></p>
+                </div>
+                <div class="portfolio-info">
+                  <h3 class="portfolio-subtitle">Meditation App</h3>
+                  <p class="portfolio-description">App</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a href="#" class="portfolio-link">
+                <div class="portfolio-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/taxi-service-288.jpg    1x,
+                        ./images/portfolio/taxi-service-288@2x.jpg 2x
+                      "
+                      width="288"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/taxi-service-356.jpg    1x,
+                        ./images/portfolio/taxi-service-356@2x.jpg 2x
+                      "
+                      width="356"
+                      media="(min-width: 768px) and (max-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/taxi-service-360.jpg    1x,
+                        ./images/portfolio/taxi-service-360@2x.jpg 2x
+                      "
+                      width="360"
+                      media="(min-width: 1158px)"
+                    />
+                    <img
+                      src="./images/portfolio/taxi-service-288.jpg"
+                      alt="A person is driving a car while wearing gloves. A smartphone is mounted on the dashboard, possibly displaying navigation or a ride-sharing app."
+                      width="360"
+                    />
+                  </picture>
+                  <p class="portfolio-slide"></p>
+                </div>
+                <div class="portfolio-info">
+                  <h3 class="portfolio-subtitle">Taxi Service</h3>
+                  <p class="portfolio-description">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a href="#" class="portfolio-link">
+                <div class="portfolio-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/screen-illustrations-288.jpg    1x,
+                        ./images/portfolio/screen-illustrations-288@2x.jpg 2x
+                      "
+                      width="288"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/screen-illustrations-356.jpg    1x,
+                        ./images/portfolio/screen-illustrations-356@2x.jpg 2x
+                      "
+                      width="356"
+                      media="(min-width: 768px) and (max-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/screen-illustrations-360.jpg    1x,
+                        ./images/portfolio/screen-illustrations-360@2x.jpg 2x
+                      "
+                      width="360"
+                      media="(min-width: 1158px)"
+                    />
+                    <img
+                      src="./images/portfolio/screen-illustrations-288.jpg"
+                      alt="A modern smartphone with a stylish, futuristic wallpaper featuring a glowing moon and sci-fi landscape. Several alternate variations of the wallpaper are shown on the side."
+                      width="360"
+                    />
+                  </picture>
+                  <p class="portfolio-slide"></p>
+                </div>
+                <div class="portfolio-info">
+                  <h3 class="portfolio-subtitle">Screen Illustrations</h3>
+                  <p class="portfolio-description">Design</p>
+                </div>
+              </a>
+            </li>
+            <li class="portfolio-item">
+              <a href="#" class="portfolio-link">
+                <div class="portfolio-wrapper">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/portfolio/online-courses-288.jpg    1x,
+                        ./images/portfolio/online-courses-288@2x.jpg 2x
+                      "
+                      width="288"
+                      media="(max-width: 767px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/online-courses-356.jpg    1x,
+                        ./images/portfolio/online-courses-356@2x.jpg 2x
+                      "
+                      width="356"
+                      media="(min-width: 768px) and (max-width: 1158px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/portfolio/online-courses-360.jpg    1x,
+                        ./images/portfolio/online-courses-360@2x.jpg 2x
+                      "
+                      width="360"
+                      media="(min-width: 1158px)"
+                    />
+                    <img
+                      src="./images/portfolio/online-courses-288.jpg"
+                      alt="A young woman wearing a beanie and round glasses is smiling while listening to music or a podcast using wired earphones. She is dressed in a cozy sweater and appears to be outdoors in an urban setting."
+                      width="360"
+                    />
+                  </picture>
+                  <p class="portfolio-slide"></p>
+                </div>
+                <div class="portfolio-info">
+                  <h3 class="portfolio-subtitle">Online Courses</h3>
+                  <p class="portfolio-description">Marketing</p>
+                </div>
+              </a>
+            </li> -->
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

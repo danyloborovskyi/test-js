@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600;700&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>WebStudio</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header">
+        <nav class="navigation">
+          <a href="#" class="logo-link"
+            >web<span class="logo-studio">studio</span></a
+          >
+          <ul class="navigation-list">
+            <li class="navigation-item">
+              <a href="#" class="navigation-link active">Studio</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#" class="navigation-link point">Portfolio</a>
+            </li>
+            <li class="navigation-item">
+              <a href="test.html" class="navigation-link point">Contacts</a>
+            </li>
+          </ul>
+          <svg class="burger" width="24px" height="24px">
+            <use href="./svg/icons.svg#burger"></use>
+          </svg>
+        </nav>
+        <address class="contacts">
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <a href="mailto:info@devstudio.com" class="contacts-link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contacts-item">
+              <a href="tel:+11 (000) 111-11-11" class="contacts-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+    <main>
+      <section class="section section-hero">
+        <div class="container container-hero">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button type="submit" class="main-button">Order Service</button>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="features-title">Our features</h2>
+          <ul class="features-list">
+            <li class="features-item">
+              <div class="features-icon-wrapper">
+                <svg class="features-icon" width="64" height="64">
+                  <use href="./svg/icons.svg#antenna"></use>
+                </svg>
+              </div>
+              <h3 class="feature-subtitle">Strategy</h3>
+              <p class="feature-description">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li class="features-item">
+              <div class="features-icon-wrapper">
+                <svg class="features-icon" width="64" height="64">
+                  <use href="./svg/icons.svg#clock"></use>
+                </svg>
+              </div>
+              <h3 class="feature-subtitle">Punctuality</h3>
+              <p class="feature-description">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="features-item">
+              <div class="features-icon-wrapper">
+                <svg class="features-icon" width="64" height="64">
+                  <use href="./svg/icons.svg#diagram"></use>
+                </svg>
+              </div>
+              <h3 class="feature-subtitle">Diligence</h3>
+              <p class="feature-description">
+                Research and confirm brands with the strongest digital growth
+                opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="features-item">
+              <div class="features-icon-wrapper">
+                <svg class="features-icon" width="64" height="64">
+                  <use href="./svg/icons.svg#astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="feature-subtitle">Technologies</h3>
+              <p class="feature-description">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section employee">
+        <div class="container container-employee">
+          <h2 class="employee-title">Our Team</h2>
+          <ul class="employee-list">
+            <li class="employee-item">
+              <img
+                srcset="
+                  ./images/employees/employee-1.jpg    1x,
+                  ./images/employees/employee-1@2x.jpg 2x
+                "
+                src="./images/employees/employee-1.jpg"
+                alt="A man with a beard, wearing a light blue shirt, smiling at the camera."
+                width="264px"
+              />
+              <div class="employee-wrapper">
+                <h3 class="employee-full-name">Mark Guerrero</h3>
+                <p class="employee-position">Product Designer</p>
+                <ul class="social-media-list">
+                  <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                      <svg class="social-media-icon" width="16px" height="16px">
+                        <use href="./svg/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                      <svg class="social-media-icon" width="16px" height="16px">
+                        <use href="./svg/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                      <svg class="social-media-icon" width="16px" height="16px">
+                        <use href="./svg/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                      <svg class="social-media-icon" width="16px" height="16px">
+                        <use href="./svg/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="employee-item">
+              <img
+                srcset="
+                  ./images/employees/employee-2.jpg    1x,
+                  ./images/employees/employee-2@2x.jpg 2x
+                "
+                src="./images/employees/employee-2.jpg"
+                alt="Another man with short hair, also in a light blue shirt, looking to his left with a cheerful smile."
+                width="264px"
+              />
+              <div class="employee-wrapper">
+                <h3 class="employee-full-name">Tom Ford</h3>
+                <p class="employee-position">Frontend Developer</p>
+                <ul class="social-media-list">
+                  <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                      <svg class="social-media-icon" width="16px" height="16px">
+                        <use href="./svg/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                      <svg class="social-media-icon" width="16px" height="16px">
+                        <use href="./svg/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                      <svg class="social-media-icon" width="16px" height="16px">
+                        <use href="./svg/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                      <svg class="social-media-icon" width="16px" height="16px">
+                        <use href="./svg/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="employee-item">
+              <img
+                srcset="
+                  ./images/employees/employee-3.jpg    1x,
+                  ./images/employees/employee-3@2x.jpg 2x
+                "
+                src="./images/employees/employee-3.jpg"
+                alt="A woman with long dark hair, wearing a pink sweater, facing the camera with a gentle smile."
+                width="264px"
+              />
+              <div class="employee-wrapper">
+                <h3 class="employee-full-name">Camila Garcia</h3>
+                <p class="employee-position">Marketing</p>
+                <ul class="social-media-list">
+                  <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                      <svg class="social-media-icon" width="16px" height="16px">
+                        <use href="./svg/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                      <svg class="social-media-icon" width="16px" height="16px">
+                        <use href="./svg/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                      <svg class="social-media-icon" width="16px" height="16px">
+                        <use href="./svg/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                      <svg class="social-media-icon" width="16px" height="16px">
+                        <use href="./svg/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="employee-item">
+              <img
+                srcset="
+                  ./images/employees/employee-4.jpg    1x,
+                  ./images/employees/employee-4@2x.jpg 2x
+                "
+                src="./images/employees/employee-4.jpg"
+                alt="A smiling man with short, dark hair and a beard, wearing a gray t-shirt."
+                width="264px"
+              />
+              <div class="employee-wrapper">
+                <h3 class="employee-full-name">Daniel Wilson</h3>
+                <p class="employee-position">UI Designer</p>
+                <ul class="social-media-list">
+                  <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                      <svg class="social-media-icon" width="16px" height="16px">
+                        <use href="./svg/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                      <svg class="social-media-icon" width="16px" height="16px">
+                        <use href="./svg/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                      <svg class="social-media-icon" width="16px" height="16px">
+                        <use href="./svg/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-media-item">
+                    <a href="" class="social-media-link">
+                      <svg class="social-media-icon" width="16px" height="16px">
+                        <use href="./svg/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container portfolio">
+          <h2 class="portfolio-title">Our Portfolio</h2>
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
+              <div class="portfolio-wrapper">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/banking-app-288.jpg    1x,
+                      ./images/portfolio/banking-app-288@2x.jpg 2x
+                    "
+                    width="288"
+                    media="(min-width: 320px) and (max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/banking-app-356.jpg    1x,
+                      ./images/portfolio/banking-app-356@2x.jpg 2x
+                    "
+                    width="356"
+                    media="(min-width: 768px) and (max-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/banking-app-360.jpg    1x,
+                      ./images/portfolio/banking-app-360@2x.jpg 2x
+                    "
+                    width="360"
+                    media="(min-width: 1158px)"
+                  />
+                  <img
+                    src="./images/portfolio/banking-app-288.jpg"
+                    alt="A mobile banking app interface with a purple and white color scheme, featuring login and registration screens as well as various financial management features."
+                  />
+                </picture>
+                <p class="portfolio-slide"></p>
+              </div>
+              <div class="portfolio-info">
+                <h3 class="portfolio-subtitle">Banking App</h3>
+                <p class="portfolio-description">App</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="portfolio-wrapper">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/cashless-payment-288.jpg    1x,
+                      ./images/portfolio/cashless-payment-288@2x.jpg 2x
+                    "
+                    width="288px"
+                    media="(min-width: 320px) and (max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/cashless-payment-356.jpg    1x,
+                      ./images/portfolio/cashless-payment-356@2x.jpg 2x
+                    "
+                    width="356px"
+                    media="(min-width: 768px) and (max-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/cashless-payment-360.jpg    1x,
+                      ./images/portfolio/cashless-payment-360@2x.jpg 2x
+                    "
+                    width="360px"
+                    media="(min-width: 1158px)"
+                  />
+                  <img
+                    src="./images/portfolio/cashless-payment-288.jpg"
+                    alt="A person making a cashless payment using a smartphone to scan a QR code on a payment terminal."
+                  />
+                </picture>
+                <p class="portfolio-slide">
+                  14 Stylish and User-Friendly App Design Concepts · Task
+                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+                  · Cloud Storage App
+                </p>
+              </div>
+              <div class="portfolio-info">
+                <h3 class="portfolio-subtitle">Cashless Payment</h3>
+                <p class="portfolio-description">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="portfolio-wrapper">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/meditation-app-288.jpg    1x,
+                      ./images/portfolio/meditation-app-288@2x.jpg 2x
+                    "
+                    width="288"
+                    media="(min-width: 320px) and (max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/meditation-app-356.jpg    1x,
+                      ./images/portfolio/meditation-app-356@2x.jpg 2x
+                    "
+                    width="356px"
+                    media="(min-width: 768px) and (max-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/meditation-app-360.jpg    1x,
+                      ./images/portfolio/meditation-app-360@2x.jpg 2x
+                    "
+                    width="360px"
+                    media="(min-width: 1158px)"
+                  />
+                  <img
+                    src="./images/portfolio/meditation-app-288.jpg"
+                    alt="A laptop screen displaying text that reads 'RETURN TO 'NORMALCY'' with a blurred gradient background."
+                  />
+                </picture>
+                <p class="portfolio-slide"></p>
+              </div>
+              <div class="portfolio-info">
+                <h3 class="portfolio-subtitle">Meditation App</h3>
+                <p class="portfolio-description">App</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="portfolio-wrapper">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/taxi-service-288.jpg    1x,
+                      ./images/portfolio/taxi-service-288@2x.jpg 2x
+                    "
+                    width="288px"
+                    media="(min-width: 320px) and (max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/taxi-service-356.jpg    1x,
+                      ./images/portfolio/taxi-service-356@2x.jpg 2x
+                    "
+                    width="356px"
+                    media="(min-width: 768px) and (max-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/taxi-service-360.jpg    1x,
+                      ./images/portfolio/taxi-service-360@2x.jpg 2x
+                    "
+                    width="360px"
+                    media="(min-width: 1158px)"
+                  />
+                  <img
+                    src="./images/portfolio/taxi-service-288.jpg"
+                    alt="A person is driving a car while wearing gloves. A smartphone is mounted on the dashboard, possibly displaying navigation or a ride-sharing app."
+                  />
+                </picture>
+                <p class="portfolio-slide"></p>
+              </div>
+              <div class="portfolio-info">
+                <h3 class="portfolio-subtitle">Taxi Service</h3>
+                <p class="portfolio-description">Marketing</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="portfolio-wrapper">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/screen-illustrations-288.jpg    1x,
+                      ./images/portfolio/screen-illustrations-288@2x.jpg 2x
+                    "
+                    width="288px"
+                    media="(min-width: 320px) and (max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/screen-illustrations-356.jpg    1x,
+                      ./images/portfolio/screen-illustrations-356@2x.jpg 2x
+                    "
+                    width="356px"
+                    media="(min-width: 768px) and (max-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/screen-illustrations-360.jpg    1x,
+                      ./images/portfolio/screen-illustrations-360@2x.jpg 2x
+                    "
+                    width="360px"
+                    media="(min-width: 1158px)"
+                  />
+                  <img
+                    src="./images/portfolio/screen-illustrations-288.jpg"
+                    alt="A modern smartphone with a stylish, futuristic wallpaper featuring a glowing moon and sci-fi landscape. Several alternate variations of the wallpaper are shown on the side."
+                  />
+                </picture>
+                <p class="portfolio-slide"></p>
+              </div>
+              <div class="portfolio-info">
+                <h3 class="portfolio-subtitle">Screen Illustrations</h3>
+                <p class="portfolio-description">Design</p>
+              </div>
+            </li>
+            <li class="portfolio-item">
+              <div class="portfolio-wrapper">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/portfolio/online-courses-288.jpg    1x,
+                      ./images/portfolio/online-courses-288@2x.jpg 2x
+                    "
+                    width="288px"
+                    media="(min-width: 320px) and (max-width: 767px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/online-courses-356.jpg    1x,
+                      ./images/portfolio/online-courses-356@2x.jpg 2x
+                    "
+                    width="356px"
+                    media="(min-width: 768px) and (max-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/online-courses-360.jpg    1x,
+                      ./images/portfolio/online-courses-360@2x.jpg 2x
+                    "
+                    width="360px"
+                    media="(min-width: 1158px)"
+                  />
+                  <img
+                    src="./images/portfolio/online-courses-288.jpg"
+                    alt="A young woman wearing a beanie and round glasses is smiling while listening to music or a podcast using wired earphones. She is dressed in a cozy sweater and appears to be outdoors in an urban setting."
+                  />
+                </picture>
+                <p class="portfolio-slide"></p>
+              </div>
+              <div class="portfolio-info">
+                <h3 class="portfolio-subtitle">Online Courses</h3>
+                <p class="portfolio-description">Marketing</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container container-footer">
+        <div class="logo-footer">
+          <a href="#" class="logo-link logo-link-footer"
+            >web<span class="logo-studio logo-studio-footer">studio</span></a
+          >
+          <p class="footer-description">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+        <div class="social-media-footer">
+          <h2 class="social-media-footer-title">Social media</h2>
+          <ul class="social-media-list social-media-list-footer">
+            <li class="social-media-item">
+              <a href="" class="social-media-link">
+                <svg class="social-media-icon" width="16px" height="16px">
+                  <use href="./svg/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-item">
+              <a href="" class="social-media-link">
+                <svg class="social-media-icon" width="16px" height="16px">
+                  <use href="./svg/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-item">
+              <a href="" class="social-media-link">
+                <svg class="social-media-icon" width="16px" height="16px">
+                  <use href="./svg/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-item">
+              <a href="" class="social-media-link">
+                <svg class="social-media-icon" width="16px" height="16px">
+                  <use href="./svg/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscribe">
+          <form class="subscribe-form" action="">
+            <label class="subscribe-label" for="subscribe">Subscribe</label>
+            <div class="subscribe-wrapper">
+              <input
+                class="subscripe-input"
+                type="email"
+                id="subscribe"
+                placeholder="E-mail"
+              />
+              <button
+                type="submit"
+                class="main-button main-button-subscription"
+              >
+                Subscribe
+                <svg class="subscribe-icon" width="24px" height="24px">
+                  <use href="./svg/icons.svg#telegram"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <!-- put modal is-open in modal -->
+    <div class="backdrop">
+      <div class="modal">
+        <button class="button-close" type="button">
+          <svg class="icon-close" width="8px" height="8px">
+            <use href="./svg/icons.svg#close"></use>
+          </svg>
+        </button>
+        <h2 class="modal-title">
+          Leave your contacts and we will call you back
+        </h2>
+        <form class="modal-form">
+          <label class="modal-label"
+            >Name
+            <div class="modal-input-wrapper">
+              <input
+                class="modal-input"
+                type="text"
+                name="username"
+                autofocus
+              />
+              <svg class="modal-icon" width="18px" height="24px">
+                <use href="./svg/icons.svg#person"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="modal-label"
+            >Phone
+            <div class="modal-input-wrapper">
+              <input class="modal-input" type="tel" name="phone" />
+              <svg class="modal-icon" width="18px" height="24px">
+                <use href="./svg/icons.svg#phone"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="modal-label"
+            >Email
+            <div class="modal-input-wrapper">
+              <input class="modal-input" type="email" name="email" />
+              <svg class="modal-icon" width="18px" height="24px">
+                <use href="./svg/icons.svg#email"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="modal-label"
+            >Comment
+            <textarea
+              class="modal-comment"
+              type="text"
+              name="comment"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+          <input type="checkbox" class="modal-checkbox" id="privacy-policy" />
+          <label for="privacy-policy" class="modal-label-checkbox"
+            >I accept the terms and conditions of the
+            <a href="" class="privacy-policy">Privacy Policy</a>
+          </label>
+          <div class="modal-button">
+            <button type="submit" class="main-button">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="mobile-menu-backdrop">
+      <div class="mobile-menu">
+        <button class="button-close" type="button">
+          <svg class="icon-close" width="8px" height="8px">
+            <use href="./svg/icons.svg#close"></use>
+          </svg>
+        </button>
+        <ul class="navigation-list-mobile">
+          <li class="navigation-item-mobile">
+            <div class="navigation-mobile-wrapper">
+              <a href="#" class="navigation-link-mobile active point">Studio</a>
+            </div>
+          </li>
+          <li class="navigation-item-mobile">
+            <div class="navigation-mobile-wrapper">
+              <a href="#" class="navigation-link-mobile point">Portfolio</a>
+            </div>
+          </li>
+          <li class="navigation-item-mobile">
+            <div class="navigation-mobile-wrapper">
+              <a href="test.html" class="navigation-link-mobile point"
+                >Contacts</a
+              >
+            </div>
+          </li>
+        </ul>
+        <div class="mobile-menu-info-wrapper">
+          <address class="contacts-mobile">
+            <ul class="contacts-list-mobile">
+              <li class="contacts-item-mobile">
+                <a href="mailto:info@devstudio.com" class="contacts-link-mobile"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="contacts-item-mobile">
+                <a href="tel:+11 (000) 111-11-11" class="contacts-link-mobile"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="social-media-list social-media-list-mobile">
+            <li class="social-media-item">
+              <a href="" class="social-media-link">
+                <svg class="social-media-icon" width="16px" height="16px">
+                  <use href="./svg/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-item">
+              <a href="" class="social-media-link">
+                <svg class="social-media-icon" width="16px" height="16px">
+                  <use href="./svg/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-item">
+              <a href="" class="social-media-link">
+                <svg class="social-media-icon" width="16px" height="16px">
+                  <use href="./svg/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-item">
+              <a href="" class="social-media-link">
+                <svg class="social-media-icon" width="16px" height="16px">
+                  <use href="./svg/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
