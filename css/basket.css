@@ -1,0 +1,45 @@
+.section-cart {
+    padding: 100px 0 100px 0;
+}
+
+.cart {
+    position: fixed;
+    top: 10%;
+    right: 15%;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.button-add,
+.clear-button {
+    width: 100px;
+    height: 30px;
+    background-color: gold;
+    cursor: pointer;
+    transition: background-color ease-in-out 300ms;
+}
+
+.button-add:hover,
+.clear-button:hover {
+    background-color: yellowgreen;
+}
+
+.clear-button {
+    width: 100px;
+    height: 30px;
+    background-color: gold;
+    cursor: pointer;
+    transition: background-color ease-in-out 300ms;
+}
